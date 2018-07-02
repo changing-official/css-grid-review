@@ -20,3 +20,6 @@ If you use the Homebrew package manager for Mac OS X, you can install Dart Sass 
 
 `brew install sass/sass/sass`
 
+## API 
+
+Utilizamos https://pokeapi.co/
