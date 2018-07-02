@@ -1,5 +1,5 @@
 # css-grid-review
-A small example of a css grid layout page
+A pokemon profile that contains all information about the pokemon, such as type, stats, moves, abilities, evolutions etc.
 
 ## Install Sass
 
