@@ -1,0 +1,97 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas: "header header header" "menu content content" "footer footer footer ";
+}
+
+.header {
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: gray;
+    text-align: center;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    background-color: lavender;
+    text-align: center;
+    width: 72em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 3fr 2fr;
+    grid-template-areas: "breadcrumb breadcrumb breadcrumb" "id-nome-type type-abilities type-title" "image description type-effectiveness" "stats evolution evolution";
+}
+
+.breadcrumb {
+    grid-area: breadcrumb;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.id-nome-type {
+    grid-area: id-nome-type;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.type-abilities {
+    grid-area: type-abilities;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.type-title {
+    grid-area: type-title;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.image {
+    grid-area: image;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.description {
+    grid-area: description;
+    background-color: lightslategray;
+    text-align: center;
+}
+
+.type-effectiveness {
+    grid-area: type-effectiveness;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.stats {
+    grid-area: stats;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.evolution {
+    grid-area: evolution;
+    background-color: lightgreen;
+    text-align: center;
+}
