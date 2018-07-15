@@ -13,6 +13,7 @@ import { PokemonProfileDescriptionComponent } from './pokemon-profile/pokemon-pr
 import { PokemonProfileTypeEffectivenessComponent } from './pokemon-profile/pokemon-profile-type-effectiveness/pokemon-profile-type-effectiveness.component';
 import { PokemonProfileStatsComponent } from './pokemon-profile/pokemon-profile-stats/pokemon-profile-stats.component';
 import { PokemonProfileEvolutionComponent } from './pokemon-profile/pokemon-profile-evolution/pokemon-profile-evolution.component';
+import { PokemonProfileContentComponent } from './pokemon-profile/pokemon-profile-content/pokemon-profile-content.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PokemonProfileEvolutionComponent } from './pokemon-profile/pokemon-prof
     PokemonProfileDescriptionComponent,
     PokemonProfileTypeEffectivenessComponent,
     PokemonProfileStatsComponent,
-    PokemonProfileEvolutionComponent
+    PokemonProfileEvolutionComponent,
+    PokemonProfileContentComponent
   ],
   imports: [
     BrowserModule,

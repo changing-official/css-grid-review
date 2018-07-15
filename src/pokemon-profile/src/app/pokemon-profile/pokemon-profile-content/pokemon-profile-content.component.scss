@@ -1,0 +1,11 @@
+.content {
+    grid-area: content;
+    background-color: lavender;
+    text-align: center;
+    width: auto;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 2fr 1.5fr;
+    grid-template-areas: "content__breadcrumb content__breadcrumb content__breadcrumb" "content__nome content__abilities content__type" "content__image content__description content__type-effectiveness" "content__stats content__evolution content__evolution";
+}
