@@ -15,13 +15,13 @@ body, html {
      "footer footer footer ";
 }
 
-.header {
+header {
     grid-area: header;
     background-color: blue;
     text-align: center;
 }
 
-.footer {
+footer {
     grid-area: footer;
     background-color: gray;
     text-align: center;
