@@ -1,0 +1,97 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "menu content content" "footer footer footer ";
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+    text-align: center;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    background-color: lavender;
+    text-align: center;
+    width: auto;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 1fr 2fr 1.5fr;
+    grid-template-areas: "content__breadcrumb content__breadcrumb content__breadcrumb" "content__nome content__abilities content__type" "content__image content__description content__type-effectiveness" "content__stats content__evolution content__evolution";
+}
+
+.content__breadcrumb {
+    grid-area: content__breadcrumb;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.content__nome {
+    grid-area: content__nome;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.content__abilities {
+    grid-area: content__abilities;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.content__type {
+    grid-area: content__type;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.content__image {
+    grid-area: content__image;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.content__description {
+    grid-area: content__description;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.content__type-effectiveness {
+    grid-area: content__type-effectiveness;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.content__stats {
+    grid-area: content__stats;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.content__evolution {
+    grid-area: content__evolution;
+    background-color: lightgreen;
+    text-align: center;
+}
