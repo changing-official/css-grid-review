@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-pokemon-profile',
   templateUrl: './pokemon-profile.component.html',
-  styleUrls: ['./pokemon-profile.component.css']
+  styleUrls: ['./pokemon-profile.component.scss']
 })
 export class PokemonProfileComponent implements OnInit {
 
